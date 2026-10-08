@@ -3,7 +3,7 @@
   --font-accent: 'PressStart2P', monospace;
   --weight-text: 'wght' 400;      
   --weight-title: 'wght' 785;
-  --button-content-color: #ffffff; 
+  --button-text-color: #ffffff; 
   --page-background: 
        repeating-linear-gradient(
       90deg,
@@ -28,4 +28,6 @@
   --background-color: #fff;
   --main-text-size: 18px;
   --wrapper-stroke-color: #fff; 
+  --contour-color: #000;
+  --animation-fill-color: red;
 }
