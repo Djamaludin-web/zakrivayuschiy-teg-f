@@ -32,6 +32,7 @@ a {
 
 button,
 input {
+  position: relative;
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
