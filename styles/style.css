@@ -111,7 +111,9 @@
     -webkit-text-stroke: 1px var(--wrapper-stroke-color);
     text-stroke: 1px var(--wrapper-stroke-color);
   }
-} 
+
+}
+
 }
 
 .card-item__content-text {
@@ -186,7 +188,7 @@
   width: 60px;
   height: 28px;
   margin-top: -8px;
-  fill: var(--button-text-color);      
+  fill: var(--button-text-color);   
   mix-blend-mode: difference;
   position: relative;
   z-index: 1;
@@ -211,13 +213,13 @@
 
 .modal::backdrop {
   background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(4px); 
+  backdrop-filter: blur(4px);
 }
 
 .modal__content-text {
   display: flex;
   align-items: center;
-  gap: 20px; 
+  gap: 20px;
 }
 
 .modal__content-text .button__text {
