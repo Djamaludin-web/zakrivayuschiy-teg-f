@@ -1,10 +1,10 @@
 :root {
   --font-main: 'Inter', sans-serif;
   --font-accent: 'PressStart2P', monospace;
-  --weight-text: 'wght' 400;      
+  --weight-text: 'wght' 400;
   --weight-title: 'wght' 785;
-  --button-text-color: #ffffff; 
-  --page-background: 
+  --button-text-color: #ffffff;
+  --page-background:
        repeating-linear-gradient(
       90deg,
       #d3d3d3 0px,
@@ -21,13 +21,13 @@
     ),
     linear-gradient(
       180deg,
-      #1a1a1a 0.01%, 
-      #e7e7e7 100%   
+      #1a1a1a 0.01%,
+      #e7e7e7 100%
     );
   --container-width: clamp(371px, 98vw, 691px);
   --background-color: #fff;
   --main-text-size: 18px;
-  --wrapper-stroke-color: #fff; 
+  --wrapper-stroke-color: #fff;
   --contour-color: #000;
   --animation-fill-color: red;
 }
