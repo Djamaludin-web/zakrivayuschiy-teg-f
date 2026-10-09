@@ -39,7 +39,7 @@
 }
 
 .header__logo-group-title {
-  font-size: clamp(49px, 41.96px + 1.88vw, 69px);
+  font-size: clamp(49px, 41.96px + 1.88vw, 66px);
 }
 
 .header__logo-group-text {
@@ -388,7 +388,7 @@
   }
 
   .card__title {
-    padding-bottom: 6.5px;
-    padding-top: 9.5px;
+    padding-bottom: 4px;
+    padding-top: 12px;
   }
 }
