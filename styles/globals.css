@@ -33,9 +33,10 @@ a {
 button,
 input {
   position: relative;
-  color: currentColor;
+  color: var(--button-text-color);
   font-family: inherit;
   font-size: inherit;
+  cursor: pointer;
 }
 
 ul,

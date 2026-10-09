@@ -5,29 +5,33 @@
   --weight-title: 'wght' 785;
   --button-text-color: #ffffff;
   --page-background:
-       repeating-linear-gradient(
-      90deg,
-      #d3d3d3 0px,
-      #d3d3d3 2px,
-      transparent 2px,
-      transparent 4px
-    ),
     repeating-linear-gradient(
-      180deg,
-      #d3d3d3 0px,
-      #d3d3d3 2px,
-      transparent 2px,
-      transparent 4px
-    ),
-    linear-gradient(
-      180deg,
-      #1a1a1a 0.01%,
-      #e7e7e7 100%
-    );
-  --container-width: clamp(371px, 98vw, 691px);
+    90deg,
+    #d3d3d3 0px,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  repeating-linear-gradient(
+    180deg,
+    #d3d3d3 0px,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  linear-gradient(
+    180deg,
+    #e7e7e7 0%,
+    #1a1a1a 100%
+  );
+  --container-width: clamp(371px, 98vw, 700px);
   --background-color: #fff;
   --main-text-size: 18px;
   --wrapper-stroke-color: #fff;
-  --contour-color: #000;
+  /* Themes/mainColor из макета */
+  --main-color: #000;
+  --contour-color: var(--main-color);
   --animation-fill-color: red;
+  /* Слой veil из макета: чёрный, 75% */
+  --overlay-color: rgba(0, 0, 0, 0.75);
 }
