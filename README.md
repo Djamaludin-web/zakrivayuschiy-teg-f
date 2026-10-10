@@ -1,1 +1,1 @@
-https://djamaludin-web.github.io/zakrivayuschiy-teg-f/
+https://github.com/djamaludin-web/zakrivayuschiy-teg-f
