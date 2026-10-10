@@ -1,13 +1,3 @@
-/* Классы, которые нужны скриптам like.js (не переименовывать):
-✦ like-icon — svg-иконка анимированного сердца
-✦ card__like-button — кнопка Like рядом с иконкой
-✦ card__icon-button — кнопка, оборачивающая иконку
-✦ is-liked — состояние лайкнутого сердца
-✦ button__text — текст внутри кнопки
-*/
-
-/* ===== Страница ===== */
-
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
@@ -16,6 +6,7 @@
   font-variation-settings: var(--weight-text);
   background-image: var(--page-background);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /* ===== Шапка ===== */
@@ -50,7 +41,7 @@
 
 .card-list {
   display: grid;
-  gap: 45px;
+  gap: 44px;
 }
 
 /* ===== Карточка ===== */
@@ -169,6 +160,10 @@
 /* ===== Кнопка-иконка с сердцем ===== */
 
 .card__icon-button {
+  display: grid;
+  place-items: center;
+  inline-size: 38px;
+  block-size: 38px;
   padding: 0;
   background: transparent;
   border: none;
@@ -176,7 +171,7 @@
 
 .card__icon-button:focus-visible {
   outline: 2px solid var(--main-color);
-  outline-offset: 2px;
+  outline-offset: -2px;
 }
 
 .like-icon {
@@ -188,7 +183,7 @@
 }
 
 .heart {
-  transform-origin: 12px 12px;
+  transform-origin: 19.5px 18px;
 }
 
 .sparks {
@@ -308,7 +303,8 @@
 .card__like-button {
   place-items: center;
   inline-size: 130px;
-  padding: 10.5px 0;
+  block-size: 38px;
+  padding: 0;
   margin-right: 24px;
 }
 
@@ -318,7 +314,7 @@
   margin: 6px 34.5px 100px;
   padding: 15px 20px;
   font-size: 13.8px;
-  gap: 8px;
+  gap: 10px;
 }
 
 .modal__button {
@@ -383,8 +379,13 @@
   .save-button {
     grid-auto-flow: column;
     align-items: center;
-    padding: 10.5px 16px;
+    padding: 14.5px 20px;
     margin-top: 7.5px;
+  }
+
+  .save-button .floppy-icon {
+    width: 20px;
+    height: 20px;
   }
 
   .card__title {
